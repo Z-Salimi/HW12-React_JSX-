@@ -12,18 +12,20 @@ import { Unseen } from "./components/Unseen";
 
 export default function App() {
   return (
-    <div>
-    <Navbar />
-    <Hero />
-    <Clients />
-    <Community />
-    <Unseen />
-    <Helping />
-    <Design />
-    <TimSmith />
-    <Marketing />
-    <Demo />
-    <Footer />
-    </div>
-  )
+    <>
+      <Navbar />
+      <div className="max-w-[1920px] mx-auto">
+        <Hero />
+        <Clients />
+        <Community />
+        <Unseen />
+        <Helping />
+        <Design />
+        <TimSmith />
+        <Marketing />
+        <Demo />
+      </div>
+      <Footer />
+    </>
+  );
 }

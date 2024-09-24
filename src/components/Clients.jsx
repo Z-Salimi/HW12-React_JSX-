@@ -20,8 +20,8 @@ export function Clients() {
       </div>
 
       <div className="flex justify-around items-center mt-8 w-full">
-        {clientArray.map((client, index) => (
-          <img key={index} src={client}></img>
+        {clientArray.map((client) => (
+          <img key={client} src={client}></img>
         ))}
       </div>
     </section>

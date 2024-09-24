@@ -30,8 +30,8 @@ const Array =clientArray.slice(0,clientArray.length-1)
         </p>
 
         <div className="flex gap-x-14 items-center mt-5 ">
-        {Array.map((client, index) => (
-          <img key={index} src={client}></img>
+        {Array.map((client) => (
+          <img key={client} src={client}></img>
         ))}
           <h4 className="flex justify-center items-center gap-3 text-Brand/Primary text-[13.92px] font-semibold">
             Meet all customers 
